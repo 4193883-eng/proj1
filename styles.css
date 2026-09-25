@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    max-width: max(50vw, 500px);
+    margin: auto;
+}
+
+#a{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4ch;
+    gap: 8ch;
+}
+
+img{
+    display: block;
+    width: 100%;
+
+}
+
+p{
+    width: 60ch;
+}
+
+.sec{
+    width: 60ch;
+}

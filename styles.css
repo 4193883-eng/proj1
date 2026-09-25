@@ -3,7 +3,7 @@ body{
 }
 
 .main{
-    max-width: max(50vw, 500px);
+    max-width: min(95vw, 900px);
     margin: auto;
 }
 
@@ -14,8 +14,9 @@ body{
 .row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 4ch;
-    gap: 8ch;
+    gap: max(5vw, 4ch);
 }
 
 img{
@@ -30,4 +31,19 @@ p{
 
 .sec{
     width: 60ch;
+}
+
+.contents{
+    padding: 1ch;
+    font-size: 1.1em;
+}
+
+.contents > * {
+    outline: black 1px solid;
+    display: block;
+    padding: 0.5ch;
+}
+
+.frwjkl > li{
+    margin-bottom: 2ch;
 }
